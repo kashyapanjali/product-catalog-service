@@ -2,9 +2,9 @@ const express = require('express');
 const router = express.Router();
 
 const products = [
-  { id: 1, name: 'Shampoo', price: 120 },
-  { id: 2, name: 'Toothpaste', price: 60 },
-  { id: 3, name: 'Sanitary Pads', price: 80 }
+  { id: 1, name: 'Hair-Shampoo', price: 120 },
+  { id: 2, name: 'Toothpaste-brush1', price: 60 },
+  { id: 3, name: 'Sanitary Pads safety kits', price: 80 }
 ];
 
 // GET /products
